@@ -1,0 +1,51 @@
+body{
+	background-color: #49A835;
+	font-family: "Marck Script", "Liberation Serif", "Times New Roman", cursive;
+}
+
+img{
+	width: 100%;
+}
+
+.telefone-main{
+	font-family: "Liberation Serif", "Times New Roman";
+	font-weight: bold;
+	color: #A7F598;
+}
+
+.apresentacao{
+	background-color: #A7F598;
+	color: #5C0B47;
+	border-radius: 1em;
+}
+
+.apresentacao h1{
+	/*text-transform: uppercase;*/
+}
+
+.cardapio{
+	background-color: white;
+	border-radius: 1em;
+}
+
+.cardapio{
+	background-color: #F58442;
+}
+
+.btn-cardapio{
+	/*text-transform: uppercase;*/
+	color: #337526;
+}
+
+.mapa p{
+	color: white;
+}
+
+footer{
+	background-color: #337526;
+}
+
+footer p{
+	color: white;
+	font-family: "Liberation Serif", "Times New Roman";
+}

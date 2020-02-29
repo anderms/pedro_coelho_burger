@@ -1,0 +1,154 @@
+/* MOBILE FIRST */
+/* 320x534 */
+header{
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+.logomarca{
+	margin-top: .5rem;
+	margin-bottom: .5rem;	
+}
+.main{
+	margin: 0 auto;
+	width: 90%;
+}
+.apresentacao{
+	padding: .5rem;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	line-height: 155%;
+}
+
+.apresentacao h1{
+	font-size: 250%;
+	text-align: center;
+}
+
+.apresentacao p{
+	font-size: 130%;
+	text-align: justify;
+}
+
+.cardapio{
+	padding-top: 1em;
+	padding-bottom: 1em;	
+	text-align: center;
+}
+
+.btn-cardapio{
+	font-size: 300%;
+}
+
+.mapa{
+	margin-top: 1em;
+}
+
+.mapa p{
+	margin-bottom: .5em;
+}
+
+footer{
+	margin-top: 1rem;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	line-height: 130%;
+}
+
+footer p{
+	font-size: 90%;
+}
+
+.endereco,
+.telefone,
+.site-email{
+	text-align: center;
+	padding-bottom: .5em;
+}
+
+@media(min-width: 360px){ /* 360x720 */ 
+
+	.apresentacao{
+		padding-right: 1em;
+		padding-left: 1em;
+		padding-bottom: 1em;
+		line-height: 180%;
+	}
+	
+	.apresentacao p{
+		font-size: 160%;
+	}
+}
+@media(min-width: 375px){ /* 375x667 */ 
+	.apresentacao p{
+		font-size: 150%;
+	}
+}
+@media(min-width: 412px){ /* 412x732 */ }
+@media(min-width: 720px){}
+
+/* Tablet */
+
+@media(max-width: 768px){}
+@media(max-width: 800px){}
+
+/* Dektop */
+
+@media(min-width: 1280px){}
+@media(min-width: 1366px){ /* 1366x768 */
+	header{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	.logomarca{
+		width: 320px;
+	}
+
+	.main{		
+		margin: 0 auto;
+		margin-bottom: 5rem;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.apresentacao{
+		padding-right: 2em;
+		padding-left: 2em;
+		padding-bottom: 2em;
+	}
+
+	.cardapio{
+		width: 30%;
+	}
+
+	.mapa{
+		width: 50%;
+	}
+
+	footer{
+		margin: 0 auto;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+}
+@media(max-width: 1440px){}
+@media(max-width: 1536px){}
+@media(max-width: 1600px){}
+@media(max-width: 1920px){ /* 1920x1080 */
+	.main{
+		width: 95%;
+		/*display: flex;
+		flex-direction: row;*/
+	}
+}
+@media(max-width: 2560px){}
